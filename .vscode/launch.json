@@ -8,6 +8,15 @@
       "args": [],
       "cwd": ".",
       "program": "build/Debug/outDebug"
+    },
+    {
+      "name": "Java: Run Current File",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "${fileBasenameNoExtension}",
+      "console": "integratedTerminal",
+      "cwd": "${fileDirname}",
+      "args": []
     }
   ]
 }
