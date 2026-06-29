@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Bank",
+      "request": "launch",
+      "mainClass": "Bank",
+      "projectName": "Exam Code_c4458ee5"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "lldb",
       "request": "launch",
