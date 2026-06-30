@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Book",
+      "request": "launch",
+      "mainClass": "java.Book.Book",
+      "projectName": "Exam Code_c4458ee5"
+    },
+    {
+      "type": "java",
       "name": "Calculate",
       "request": "launch",
       "mainClass": "java.Calculate.Calculate",
