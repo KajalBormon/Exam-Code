@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Check",
+      "request": "launch",
+      "mainClass": "java.Student.Check",
+      "projectName": "Exam Code_c4458ee5"
+    },
+    {
+      "type": "java",
       "name": "Bank",
       "request": "launch",
       "mainClass": "Bank",
