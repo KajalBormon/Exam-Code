@@ -5,5 +5,18 @@ int factorial(int n){
         return 1; 
     }
 
-    return factorial(n - 1);
+    return  n * factorial(n - 1);
+}
+
+int main(){
+    int n; 
+
+    printf("Enter the number: ");
+    scanf("%d", &n);
+
+    int fact = factorial(n);
+
+    printf("%d factorial is %d", n, fact);
+
+    return 0; 
 }
